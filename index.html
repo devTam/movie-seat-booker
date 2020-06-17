@@ -15,7 +15,109 @@
     <title>Genesis cinema clone </title>
   </head>
   <body>
-    <h1 class="text-center">Hello, world!</h1>
+    <!--  NAVIGATION  -->
+    <div class="container">
+      <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">
+          <img src="/images/logos/genesis-logo.png" alt="Genesis logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#genesis-nav" aria-controls="genesis-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="genesis-nav">
+          <ul class="navbar-nav mr-auto">
+            <li class="navbar-item d-xl-none">
+              <a href="#" class="navbar-link"><img src="/images/logos/genesis-logo.png" alt=""></a>
+            </li>
+            <li class="navbar-item active">
+              <a href="#" class="navbar-link">HOME</a>
+            </li>
+            
+            <li class="navbar-item dropdown">
+              <a href="#" class="navbar-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">MOVIE LOCATIONS</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a href="#" class="dropdown-item"> THE PALMS SHOPPING MALL LEKKI LAGOS</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">MARYLAND MALL LAGOS</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">NOVARE LEKKI MALL SANGOTEDO LAGOS</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">WARRI DELTA MALL EFFURUN</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">CEDDI PLAZA ABUJA</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">GATEWAY MALL LUGBE ABUJA</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">GENESIS CENTER PORT HARCOURT</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">ASABA MALL DELTA STATE</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">OWERRI MALL OWERRI</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">ABIA MALL UMUAHIA</a>
+              </div>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">BUY TICKETS</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">ABOUT US</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">CONTACT US</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+
+
+    <!-- LANDING PAGE CAROUSEL  -->
+    <div id="moviesSlide"class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#moviesSlide" data-slide-to="0" class="active"></li>
+        <li data-target="#moviesSlide" data-slide-to="1" ></li>
+        <li data-target="#moviesSlide" data-slide-to="2" ></li>
+        <li data-target="#moviesSlide" data-slide-to="3" ></li>
+        <li data-target="#moviesSlide" data-slide-to="4" ></li>
+        <li data-target="#moviesSlide" data-slide-to="5" ></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/bad-boy-for-life.jpg" alt="Badboys" class="d-block w-100">
+          <div class="carousel-caption">BADBOY</div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/Birds-of-Prey.jpg" alt="Birds of Birds-of-Prey" class="d-block w-100">
+          <div class="carousel-caption">BIRDS OF PREY</div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/bloodshot.jpg" alt="bloodshot" class="d-block w-100">
+          <div class="carousel-caption">BLOODSHOT</div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/ONWARD.jpg" alt="onwards" class="d-block w-100">
+          <div class="carousel-caption">ONWARD</div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/SONIC-THE-HEDGEHOG.jpg" alt="SONIC-THE-HEDGEHOG" class="d-block w-100">
+          <div class="carousel-caption">SONIC THE HEDGEHOG</div>
+        </div>
+        <div class="carousel-item">
+          <img src="/images/thePhotograph.jpg" alt="thePhotograph" class="d-block w-100">
+          <div class="carousel-caption">THE PHOTOGRAPH</div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
