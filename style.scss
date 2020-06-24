@@ -1,3 +1,75 @@
 // font-family: 'Fira Sans Condensed', sans-serif;
 //font-family: 'Roboto Condensed', sans-serif;
 
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.navbar {
+    border-radius: 30px;
+    width: 85%;
+    margin: 0 auto;
+    padding-left: 0;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    transform: translateX(-15px);
+}
+
+
+.carousel, .carousel-inner {
+    height: 100vh;
+}
+
+#genesis-nav {
+    // background-color: #fff;
+    margin-left: 30px;
+    letter-spacing: 4px;
+    font-size: 17px;
+    line-height: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    // background-color: blue;
+}
+
+.nav-hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    height: 2px;
+    width: 104%; 
+}
+
+.navbar-item {
+    // background-color: #fff;
+   
+}
+
+
+
+.navbar-link {
+    color: #fff !important;
+    height: 100%;
+    padding: 0 20px 10px 20px;
+    width: 100%;
+    // border-bottom: 2px solid #ED0029;
+    // border-bottom-width: 0;
+    transition: all .5s ease-in-out;
+    backface-visibility: hidden;
+    
+    
+    
+    &:hover {
+        color: #ED0029 !important;   
+        // border-bottom-width: 2px;
+        text-decoration: none;
+    }
+    
+}
+
